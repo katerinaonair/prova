@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   background: #e6e6e6;
   color: #474277;
+  font-family: 'Oxygen';
 }
 * {
   box-sizing: border-box;
@@ -59,7 +60,6 @@ html, body {
 .name {
   position: relative;
   float: right;
-  font-style: italic;
   float: left;
   text-align: right;
   padding-right: 45px;
@@ -76,6 +76,7 @@ html, body {
   letter-spacing: 3px;
   color: #474277;
   margin-left: 5em;
+  font-family: 'Dancing Script',serif;
 }
 .contact {
   float: right;
