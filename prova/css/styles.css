@@ -1,0 +1,472 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #e6e6e6;
+  color: #474277;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Head*/
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dancing Script'), local('DancingScript'), url(http://themes.googleusercontent.com/static/fonts/dancingscript/v3/DK0eTGXiZjN6yA8zAEyM2bDH3ri20rYH10B2w3wbVeU.woff) format('woff');
+}
+#header-nav {
+  background: #e6e6e6;
+}
+.row{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  background: #e6e6e6;
+}
+.top {
+  height: 10px;
+  position: relative;
+  float: left;
+  width: 100px;
+}
+.fistcolor {
+  background-color: #d8ccbf;
+  width: 30%;
+
+}
+.secondcolor{
+  background-color: #7578ab;
+  width: 25%;
+
+}
+.thirdcolor {
+  background-color: #474277;
+  width: 35%;
+
+}
+.fourthcolor {
+  background-color: #e04543;
+  width: 10%;
+}
+.row > .container {
+  margin-top: 30px;
+}
+.container-fluid{
+  position: relative;
+  text-align: center;
+}
+.name {
+  position: relative;
+  float: right;
+  font-style: italic;
+  float: left;
+  text-align: right;
+  padding-right: 45px;
+  font-family: 'Dancing Script',serif,cursive;
+  text-align: right;
+  color: #474277;
+}
+
+.work {
+  font-family: Lora;
+  position: relative;
+  float: left;
+  text-align: left;
+  letter-spacing: 3px;
+  color: #474277;
+  margin-left: 5em;
+}
+.contact {
+  float: right;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  text-align: right;
+  color: #474277;
+  font-weight: bolder;
+}
+
+.name p{
+  position: relative;
+	float:  right;
+}
+#lang: {
+  color: #474277;
+}
+.contact a, .contact a:hover, .contact a:focus {
+  color: #474277;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.menu {
+  color: #474277;
+  padding-left: 45px;
+  font-weight: bolder;
+  font-size:20px;
+}
+.menu a, .menu a:hover, .menu a:focus {
+  color: #474277;
+  text-decoration: none;
+}
+
+.main , .gallary, .order, .process{
+  text-align: center;
+  color: #474277;
+}
+.main{
+  margin-top: 100px;
+}
+
+h2 {
+  text-shadow: 1px 1px 1px lightgray;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.btn{
+  margin-top: 35px;
+  align-items: center;
+}
+.button {
+  border: 2px solid #fff;
+  color:#fff;
+  background-color: #e6e6e6;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-shadow: 1px 1px 1px lightgray;
+  width: 200px;
+  height: 59px;
+  font-size:20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-align: center;
+}
+.button:hover {
+    background-color: #7578ab;
+    color: white;
+
+}
+.button:hover {
+    background-color: #7578ab;
+    color: white;
+}
+.button:focus {
+  text-decoration: none;
+  transition: all 0.8s
+}
+.button:after {
+  text-decoration: none;
+  transition: all 0.8s
+}
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button-order{
+  border: 2px solid #4CAF50;
+  color:#fff;
+  background-color: #4CAF50;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-shadow: 1px 1px 1px #d8ccbf;
+  width: 200px;
+  height: 59px;
+  font-size:20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-align: center;
+}
+.button-order:hover {
+    background-color: #e6e6e6;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.button-order:focus {
+  text-decoration: none;
+  transition: all 0.8s
+}
+.button-order:after {
+  text-decoration: none;
+  transition: all 0.8s
+}
+.button-order:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.wrapper {
+  position: relative;
+  width: 120px;
+  height: 150px;
+  margin-bottom: 15em;
+}
+.red {
+  background-color:#e04543;
+  width: 50px;
+  height: 7em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: left;
+}
+.beige {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  background-color:#d8ccbf;
+  width: 100px;
+  height: 17em;
+  float: left;
+}
+.wrapper-right {
+  position: relative;
+  float: right;
+  width: 15em;
+  height: 150px;
+  margin-bottom: 15em;
+}
+.blue-right {
+  background-color:#7578ab;
+  width: 5em;
+  height: 7em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: left;
+}
+.beige-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color:#d8ccbf;
+  width: 15em;
+  height: 50px;
+  float: right;
+}
+
+.wrapper2-right {
+  position: relative;
+  float: right;
+  width: 15em;
+  height: 150px;
+  margin-bottom: 15em;
+}
+.blue2-right {
+  background-color:#7578ab;
+  width: 7em;
+  height: 7em;
+  position: absolute;
+  bottom: 0;
+  float: right;
+  right: 5em;
+}
+.red-right {
+  background-color:#e04543;
+  width: 50px;
+  height: 7em;
+  position: absolute;
+  top: 0;
+  right: 4em;
+  float: left;
+}
+.wrapper-left {
+  position: relative;
+  float: left;
+  width: 18em;
+  height: 150px;
+  margin-top: 20px;
+}
+.red-left {
+  background-color:#e04543;
+  width: 5em;
+  height: 2.5em;
+  position: absolute;
+  top: 1.2em;
+  right: 0;
+  float: right;
+}
+.beige-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color:#d8ccbf;
+  width: 15em;
+  height: 50px;
+  float: left;
+}
+.gallary{
+  margin-top: 400px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #7578ab;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #d8ccbf;
+}
+#menu-tile {
+  background-position: center;
+}
+#specials-tile {
+  background-position: center;
+}
+
+#home-tiles, #contactme {
+  padding-top: 100px;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #7578ab;
+  color: #fff;
+  opacity: .8;
+}
+
+.order, .process {
+  text-align: center;
+}
+.duties {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-left: 5em;
+  color: #474277;
+}
+.duties h2 {
+  text-align: center;
+}
+.duties2 {
+  margin-left: 5.5em;
+  margin-top: 80px;
+  text-align: left;
+  margin-left: 0;
+  padding: 5em;
+  color: #474277;
+}
+#iwill {
+  position: relative;
+  float: left;
+  text-align: left;
+}
+h4 {
+  text-align: left;
+}
+.photo {
+  width: 360px;
+  height:400px;
+}
+.wrapper-foto{
+  float: right;
+  position: absolute;
+  right: 5em;
+}
+.process {
+  padding-top: 5em;
+  margin-bottom: 100px;
+}
+
+/* form */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contactme {
+    border-radius: 5px;
+    background-color: #d8ccbf;
+    padding: 50px;
+}
+/* anout me*/
+#aboutme {
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #474277;
+  color: white;
+  height: 200px;
+  font-size: 14px;
+  display: block;
+}
+#aboutme a, #aboutme a:hover, #aboutme a:focus {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+
+/*************** Large devices only ****************/
+@media (min-width: 1200px) {
+
+}
+/*************** Medium devices only ****************/
+@media (min-width: 992px)  and (max-width: 1199px){
+
+}
+/*************** Small devices only ****************/
+@media (min-width: 768px)  and (max-width: 991px){
+}
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  .navbar-brand p {
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+}
